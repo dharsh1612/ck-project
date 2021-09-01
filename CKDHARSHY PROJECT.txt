@@ -1,0 +1,9 @@
+from tkinter import *
+Frame= Tk()
+Frame.geometry ("300x300")
+username_Label=Label(Frame,text="username").place(x=60,y=40)
+password_label=Entry(Frame,width=20).place(x=140,y=40)
+username_label=Entry(Frame,width=20).place(x=140,y=40)
+password_text=Entry(Frame,width=20).place(x=140,y=100)
+summit_button=Button(Frame,text="summit").place(x=110,y=150)
+Frame.mainloop()
